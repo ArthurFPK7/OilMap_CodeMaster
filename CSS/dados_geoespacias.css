@@ -1,0 +1,2009 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Impede a barra de rolagem horizontal */
+
+}
+
+.image_fundo {
+    width: 2000px;
+    height: 800px;
+    max-width: 100%;
+}
+
+.Destasques {
+    color: green;
+    font-family: sans-serif;
+    margin-left: 60px;
+}
+
+.barra {
+    background-color: #c7c3c354;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.todos_H h6 {
+    margin-bottom: 10px;
+    font-family: 'Kulim Park', sans-serif;
+}
+
+.todos_H {
+    position: absolute;
+    width: 8000px;
+    left: 40px;
+    bottom: 40px;
+    margin: 850px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.dadosgeo {
+    color: aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* css do link para pagina de dados geoespacias */
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+/* CSS do link para pagina de dados geoespaciais */
+.dados_geoespaciais {
+    position: absolute;
+    top: 42% !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 41px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+
+/* CSS do link para dados geoespaciais */
+/* CSS para espaçamento entre a bacias, campos, blocos*/
+.dados_b_P_C_B {
+    font-size: smaller;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Kulim bold', sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.dados_b_P_C_B a {
+    margin-right: 200px;
+    
+}
+
+.dados_b_P_C_B a:last-child {
+    margin-right: 0;
+}
+
+.dados_b_P_C_B .dados {
+    text-decoration: underline #FFCD01;
+}
+
+/* CSS para espaçamento entre a bacias, campos, blocos*/
+
+.dados {
+    color: #000000;
+}
+
+/* CSS do link para dados geoespaciais */
+.titulo_mapas {
+    display: flex;
+
+}
+
+.conj_tit_bac_santos {
+    display: block;
+
+}
+
+.conj_tit_bac_campos {
+    display: block;
+}
+
+.conj_tit_bac_outras {
+    display: block;
+    width: 100%;
+}
+
+.conjuntos_bacias_geral {
+    display: flex;
+}
+
+
+
+
+
+/* CSS para o botão Acesso aos Geoespaciais*/
+.botao_geoespaciais {
+    top: 60px;
+    border-radius: 50px;
+    background-color: #FFCD01;
+    padding: 25px;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    border-color: #FFCD01;
+}
+
+.botao_amarelo {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.exp_dados {
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+
+.P_titulo_b {
+    left: 0%;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline #FFCD01;
+    left: 55px;
+    position: relative;
+}
+
+#ifo_bacias {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ifo_bacias {
+    vertical-align: top;
+    /* a a */
+}
+
+.info_bacias {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+/* BACIA SANTOS */
+.titulo_Bacias {
+    color: #FFCD01;
+    font-size: 30px;
+    margin-top: 60px;
+    font-family: sans-serif;
+    margin-left: 9%;
+}
+
+.tudo_bacias {
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 76%;
+}
+
+.titulo_mapa_de_atuacao {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    position: relative;
+    margin-right: 100px;
+    color: #008C4A;
+    font-family: sans-serif;
+    left: 200px;
+}
+
+.imagens_mapa {
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    left: 100px;
+    position: relative;
+}
+
+/* BACIA CAMPOS */
+
+.titulo_Bacias2 {
+    color: #FFCD01;
+    font-size: 30px;
+    margin-top: 60px;
+    font-family: sans-serif;
+}
+
+.tudo_bacias2 {
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 82%;
+    margin-left: -62px;
+}
+
+.titulo_mapa_de_atuacao2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    margin-top: 65px;
+    position: relative;
+    margin-right: 100px;
+    color: #008C4A;
+    font-family: sans-serif;
+    left: 140px;
+
+}
+
+.imagens_mapa3 {
+    width: 40%;
+    height: auto;
+    margin-top: 15px;
+    left: 100px;
+    position: relative;
+}
+
+
+
+/* OUTRAS BACIAS */
+.titulo_Bacias3 {
+    color: #FFCD01;
+    font-size: 30px;
+    margin-top: 60px;
+    font-family: sans-serif;
+}
+
+.tudo_bacias3 {
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: -60px;
+}
+
+.titulo_mapa_de_atuacao3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    margin-top: 240px;
+    position: relative;
+    margin-right: 100px;
+    color: #008C4A;
+    font-family: sans-serif;
+    left: 120px;
+
+}
+
+.imagens_mapa2 {
+    width: 70%;
+    height: auto;
+    margin-top: 10px;
+    left: 40px;
+    position: relative;
+}
+
+.p2_b,
+.p3_b,
+.p4_b {
+    line-height: 1.5;
+    margin-top: 0;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+
+}
+
+/* css para titulos de mapas*/
+
+.titulo_blocos {
+    margin-top: 60px;
+    right: 300px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-decoration: underline #FFCD01;
+    left: 55px;
+    position: relative;
+}
+
+.titulo_mapas {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+.inf_blocos {
+    margin-left: 280px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 0;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.img_mapa_demonstracao {
+    width: 700px;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    top: auto;
+    left: 600px;
+}
+
+.observacao_img {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.P_titulo2_b {
+    color: #FFCD01;
+    font-size: 30px;
+    margin-top: 20px;
+    left: 55px;
+    position: relative;
+    font-family: sans-serif;
+    margin-left: 1%;
+}
+
+.ifo_campos {
+    margin-top: 60px;
+    right: 300px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.P_titulo_c {
+    margin-top: 60px;
+    right: 300px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-decoration: underline #FFCD01;
+    left: 55px;
+    position: relative;
+}
+
+.info_campos {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.info_pocos {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.P_titulo2_c {
+    color: #FFCD01;
+    font-size: 30px;
+    margin-top: 20px;
+    /* Remover margem superior do título */
+    left: 55px;
+    position: relative;
+    font-family: sans-serif;
+    margin-left: 1%;
+}
+
+.info_deseprod_c {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.titulo_pocos {
+    margin-top: 60px;
+    right: 300px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-decoration: underline #FFCD01;
+    left: 55px;
+    position: relative;
+}
+
+.img_ciclo_demonstracao {
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    top: auto, ;
+    left: 695px;
+}
+
+.P_titulo3_c {
+    color: #008C4A;
+    font-size: 30px;
+    margin-top: 20px;
+    left: 55px;
+    position: relative;
+    font-family: sans-serif;
+    margin-left: 1%;
+}
+
+.info_tipos_pocos {
+    margin-left: 280px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+
+.subtitulo_pocos {
+    text-align: center;
+    font-size: 18px;
+    color: #008C4A;
+    line-height: 1.5;
+    position: relative;
+    font-weight: bold;
+}
+
+.P_titulo4_c {
+    color: #FFCD01;
+    font-size: 30px;
+    margin-top: 20px;
+    left: 55px;
+    position: relative;
+    font-family: sans-serif;
+    margin-left: 1%;
+}
+
+.P_titulo5_c {
+    color: #008C4A;
+    font-size: 30px;
+    margin-top: 20px;
+    left: 55px;
+    position: relative;
+    font-family: sans-serif;
+    margin-left: 1%;
+}
+
+.img_demonstracao_tecnica {
+    width: 500px;
+    height: 600px;
+    max-width: 100%;
+    position: relative;
+    top: auto;
+    left: 690px;
+}
+
+.img_poço_em_producao {
+    width: 1000px;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    top: auto;
+    left: 450px;
+}
+
+.observacao_img_poços {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 100%;
+}
+
+footer {
+    background: #f8f8f8;
+    padding: 20px;
+}
+
+.dual-color {
+    background: linear-gradient(to right, #000000 50%, #9e9e9e 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-left: 20%;
+    margin-right:20px;
+    margin-bottom: 0;
+
+}
+
+.dual-color span {
+    background: none;
+    margin-left: 0%;
+    color: #000000;
+}
+
+@media (max-width: 1440px) {
+    /* .todos_H h6 {
+    bottom: 20px;   
+    font-family: 'Kulim Park', sans-serif;
+    } */
+
+    /* BACIA SANTOS */
+    .titulo_Bacias {
+        color: #FFCD01;
+        font-size: 30px;
+        margin-top: 60px;
+        font-family: sans-serif;
+        margin-left: 9%;
+    }
+
+    .tudo_bacias {
+        padding: 10px;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 76%;
+    }
+
+    .titulo_mapa_de_atuacao {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 140px;
+    }
+
+    .imagens_mapa {
+        width: 50%;
+        height: auto;
+        margin-top: 10px;
+        left: 80px;
+        position: relative;
+    }
+
+    /* BACIA CAMPOS */
+
+    .titulo_Bacias2 {
+        color: #FFCD01;
+        font-size: 30px;
+        margin-top: 60px;
+        font-family: sans-serif;
+    }
+
+    .tudo_bacias2 {
+        padding: 10px;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        margin-left: -50px;
+    }
+
+    .titulo_mapa_de_atuacao2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        margin-top: 35px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 85px;
+
+    }
+
+    .imagens_mapa3 {
+        width: 40%;
+        height: auto;
+        margin-top: 10px;
+        left: 70px;
+        position: relative;
+    }
+
+
+
+    /* OUTRAS BACIAS */
+    .titulo_Bacias3 {
+        color: #FFCD01;
+        font-size: 30px;
+        margin-top: 60px;
+        font-family: sans-serif;
+    }
+
+    .tudo_bacias3 {
+        padding: 10px;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: -40px;
+    }
+
+    .titulo_mapa_de_atuacao3 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        margin-top: 210px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 35px;
+
+    }
+
+    .imagens_mapa2 {
+        width: 70%;
+        height: auto;
+        margin-top: 10px;
+        left: 40px;
+        position: relative;
+    }
+
+    .img_mapa_demonstracao {
+        width: 650px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 400px;
+    }
+
+    .observacao_img {
+        font-size: 10px;
+        font-family: sans-serif;
+        line-height: 1.5;
+        position: relative;
+        right: 5px;
+    }
+
+    .img_ciclo_demonstracao {
+        width: 500px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 480px;
+    }
+
+    .img_demonstracao_tecnica {
+        width: 450px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 500px;
+    }
+
+    .img_poço_em_producao {
+        width: 1000px;
+        height: 500px;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 260px;
+    }
+
+    .observacao_img_poços {
+        font-size: 10px;
+        font-family: sans-serif;
+        max-width: 100%;
+        position: relative;
+        left: 30px;
+    }
+    .botao_amarelo {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: -70px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    /*TITULOS BACIAS BLOCOS*/
+    .dados_b_P_C_B {
+        font-size: smaller;
+        font-size: 30px;
+        font-family: 'Kulim bold', sans-serif;
+        margin-top: 50px;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .dados_b_P_C_B a {
+        margin-right: 130px;
+        
+    }
+
+    .dados_b_P_C_B a:last-child {
+        margin-right: 0;
+    }
+
+    .dados_b_P_C_B .dados {
+        text-decoration: underline #FFCD01;
+    }
+
+    .exp_dados {
+        margin-top: 20px;
+        font-size: 22px !important;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    /* CSS para espaçamento entre a bacias, campos, blocos*/
+
+    .dados {
+        color: #000000;
+    }
+
+    /**/
+    .P_titulo_b {
+        margin-top: 60px;
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 40px;
+        position: relative;
+    }
+    .titulo_blocos {
+        margin-top: 60px;
+        right: 300px;
+        font-size: 40px;
+        font-family: sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 40px;
+        position: relative;
+    }
+
+    .imagens_mapa {
+        width: 60%;
+        max-width: 100%;
+        height: 160px;
+        margin-top: 20px;
+        margin-right: 120px;
+    }
+
+    .img_mapa_demonstracao {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 170px;
+    }
+
+    .observacao_img {
+        font-size: 14px;
+        font-family: sans-serif;
+        line-height: 1.5;
+        position: relative;
+        right: 35px;
+    }
+
+    .img_ciclo_demonstracao {
+        width: 40%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 320px;
+    }
+
+    .img_demonstracao_tecnica {
+        width: 40%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 300px;
+    }
+
+    .img_poço_em_producao {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 215px;
+    }
+
+
+
+}
+
+@media (max-width: 1024px) {
+    .image_fundo {
+        width: 2000px;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .dados_geoespaciais {
+        position: absolute;
+        top: 33% !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        font-family: sans-serif;
+    }
+
+    .exp_dados {
+        margin-top: 50px;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .info_bacias {
+        font-size: 18px !important;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .p2_b,
+    .p3_b,
+    .p4_b {
+        line-height: 1.5;
+        margin-top: 0;
+        text-align: justify;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 16px;
+    }
+
+
+    .mapa_de_atuacao h3 {
+        margin-bottom: 5px;
+        position: relative;
+        margin-left: 55px;
+        color: #008C4A;
+        font-family: sans-serif;
+    }
+
+    /* BACIA SANTOS */
+    .conj_tit_bac_santos {
+        display: block;
+        width: 100%;
+    }
+
+    .titulo_Bacias {
+        color: #FFCD01;
+        font-size: 25px !important;
+        margin-top: 60px;
+        font-family: sans-serif;
+        margin-left: 50px;
+    }
+
+    .tudo_bacias {
+        padding: 10px;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .titulo_mapa_de_atuacao {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 130px;
+        font-size: 14px;
+    }
+
+    .imagens_mapa {
+        width: 36%;
+        height: auto;
+        margin-top: 10px;
+        left: 120px;
+        position: relative;
+    }
+
+    /* BACIA CAMPOS */
+    .conj_tit_bac_campos {
+        display: block;
+        width: 100%;
+    }
+
+    .titulo_Bacias2 {
+        color: #FFCD01;
+        font-size: 25px;
+        margin-top: 60px;
+        font-family: sans-serif;
+        margin-left: 30px
+    }
+
+    .tudo_bacias2 {
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: -12px !important;
+    }
+
+    .titulo_mapa_de_atuacao2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        margin-top: 56px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 90px;
+        font-size: 14px;
+    }
+
+    .imagens_mapa3 {
+        width: 40%;
+        height: auto;
+        margin-top: 10px;
+        left: 65px;
+        position: relative;
+    }
+
+    /* OUTRAS BACIAS */
+    .conj_tit_bac_outras {
+        display: block;
+        width: 100%;
+    }
+
+    .titulo_Bacias3 {
+        color: #FFCD01;
+        font-size: 25px;
+        margin-top: 60px;
+        font-family: sans-serif;
+        margin-left: 10px;
+    }
+
+    .tudo_bacias3 {
+        padding: 10px;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: -30px;
+
+    }
+
+    .titulo_mapa_de_atuacao3 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        margin-top: 247px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 80px;
+        font-size: 14px;
+    }
+
+    .imagens_mapa2 {
+        width: 40%;
+        height: auto;
+        margin-top: 10px;
+        left: 80px;
+        position: relative;
+    }
+
+    .inf_blocos {
+        margin-left: 280px;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-top: 0;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .img_mapa_demonstracao {
+        width: 50%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 270px;
+    }
+
+    .observacao_img {
+        font-size: 10px;
+        font-family: sans-serif;
+        line-height: 1.5;
+        position: relative;
+        left: 15px;
+    }
+
+    .info_campos {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+
+    .info_deseprod_c {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .info_pocos {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+
+    .img_ciclo_demonstracao {
+        width: 35%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 340px;
+    }
+
+    .info_tipos_pocos {
+        margin-left: 280px;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+
+    }
+
+    .img_demonstracao_tecnica {
+        width: 35%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 350px;
+    }
+
+    .img_poço_em_producao {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 210px !important;
+    }
+
+    .observacao_img_poços {
+        font-size: 10px;
+        font-family: sans-serif;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .botao_geoespaciais {
+        top: 50px;
+        border-radius: 40px;
+        background-color: #FFCD01;
+        padding: 25px;
+        color: aliceblue;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        font-weight: bold;
+        border-color: #FFCD01;
+
+    }
+
+    .botao_amarelo {
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .dados_b_P_C_B {
+        font-size: smaller;
+        text-align: center;
+        font-size: 28px;
+        font-family: 'Kulim bold', sans-serif;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    
+    .dados_b_P_C_B a {
+        margin-right: 80px;
+       
+    }
+
+    .dados_geoespaciais {
+        position: absolute;
+        top: 25% !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        font-family: sans-serif;
+    }
+    .P_titulo_b {
+        margin-top: 60px;
+        font-size: 36px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 30px;
+        position: relative;
+    }
+    .titulo_blocos {
+        margin-top: 60px;
+        right: 300px;
+        font-size: 36px;
+        font-family: sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 30px;
+        position: relative;
+    }
+    .P_titulo_c {
+        margin-top: 60px;
+        right: 300px;
+        font-size: 36px;
+        font-family: sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 30px;
+        position: relative;
+    }
+    .titulo_pocos {
+        margin-top: 60px;
+        right: 300px;
+        font-size: 36px;
+        font-family: sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 30px;
+        position: relative;
+    }
+    /* BACIA SANTOS */
+    .conj_tit_bac_santos {
+        display: block;
+        width: 100%;
+    }
+
+    .titulo_Bacias {
+        color: #FFCD01;
+        font-size: 25px !important;
+        margin-top: 60px;
+        font-family: sans-serif;
+        margin-left: 50px;
+    }
+
+    .tudo_bacias {
+        padding: 10px;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .titulo_mapa_de_atuacao {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        margin-top: 8px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 80px;
+        font-size: 14px;
+    }
+
+    .imagens_mapa {
+        width: 70%;
+        height: auto;
+        margin-top: 10px;
+        left: 60px;
+        position: relative;
+    }
+
+    /* BACIA CAMPOS */
+    .conj_tit_bac_campos {
+        display: block;
+        width: 100%;
+    }
+
+    .titulo_Bacias2 {
+        color: #FFCD01;
+        font-size: 25px;
+        margin-top: 60px;
+        font-family: sans-serif;
+        margin-left: 30px
+    }
+
+    .tudo_bacias2 {
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: -12px !important;
+    }
+
+    .titulo_mapa_de_atuacao2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        margin-top: 80px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 50px;
+        font-size: 14px;
+    }
+
+    .imagens_mapa3 {
+        width: 60%;
+        height: auto;
+        margin-top: 10px;
+        left: 40px;
+        position: relative;
+    }
+
+    /* OUTRAS BACIAS */
+    .conj_tit_bac_outras {
+        display: block;
+        width: 100%;
+    }
+
+    .titulo_Bacias3 {
+        color: #FFCD01;
+        font-size: 25px;
+        margin-top: 60px;
+        font-family: sans-serif;
+        margin-left: 10px;
+    }
+
+    .tudo_bacias3 {
+        padding: 10px;
+        font-size: 20px;
+        margin-top: 27px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: -30px;
+    }
+
+    .titulo_mapa_de_atuacao3 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        margin-top: 345px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 38px;
+        font-size: 14px;
+    }
+
+    .imagens_mapa2 {
+        width: 60%;
+        height: auto;
+        margin-top: 10px;
+        left: 30px;
+        position: relative;
+    }
+
+    .img_mapa_demonstracao {
+        width: 500px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 140px;
+    }
+
+    .P_titulo2_c {
+        color: #FFCD01;
+        font-size: 30px;
+        margin-top: 10px;
+        left: 55px;
+        position: relative;
+        font-family: sans-serif;
+        margin-left: 1%;
+    }
+
+    .observacao_img {
+        font-size: 10px;
+        font-family: sans-serif;
+        position: relative;
+        line-height: 1.5;
+        left: 10px;
+    }
+
+    .img_ciclo_demonstracao {
+        width: 50%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 200px;
+    }
+
+    .img_demonstracao_tecnica {
+        width: 35%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 257px;
+    }
+
+    .img_poço_em_producao {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 155px !important;
+    }
+    .botao_amarelo {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: -100px;
+    }
+}
+
+@media (max-width: 425px) {
+    .dados_b_P_C_B {
+        font-size: smaller;
+        text-align: center;
+        font-size: 22px !important;
+        font-family: 'Kulim bold', sans-serif;
+        margin-top: 20px !important;
+        font-weight: bold;
+    }
+    
+    .dados_b_P_C_B a {
+        margin-right: 10px !important;
+    }
+    .image_fundo {
+        width: 2000px;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .dados_geoespaciais {
+        position: absolute;
+        top: 13% !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        font-family: sans-serif;
+    }
+
+    .dados_b_P_C_B {
+        font-size: smaller;
+        text-align: center;
+        font-size: 26px;
+        font-family: 'Kulim bold', sans-serif;
+        margin-top: 50px;
+        font-weight: bold;
+        word-spacing: 1px !important;
+    }
+    
+    .dados_b_P_C_B a {
+        margin-right: 200px;
+        transition: 7s;
+    }
+    
+    .dados_b_P_C_B a:last-child {
+        margin-right: 0;
+
+    }
+    
+    .dados_b_P_C_B .dados {
+        text-decoration: underline #FFCD01;
+    }
+
+    .botao_amarelo {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: -70px;
+    }
+    .exp_dados {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    /* CSS para espaçamento entre a bacias, campos, blocos*/
+    
+    .dados {
+        color: #000000;
+    }
+
+    
+    .P_titulo_b {
+        left: 0%;
+        margin-top: 60px;
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 15px;
+        position: relative;
+    }
+    
+
+    .conjuntos_bacias_geral {
+        display: block;
+        width: 100%;
+    }
+
+    /* BACIA SANTOS */
+    .conj_tit_bac_santos {
+        display: block;
+        width: 100%;
+    }
+
+    .titulo_Bacias {
+        color: #FFCD01;
+        font-size: 25px !important;
+        margin-top: 40px;
+        font-family: sans-serif;
+        margin-left: 40px;
+    }
+
+    .tudo_bacias {
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: -10px;
+    }
+
+    .titulo_mapa_de_atuacao {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 150px;
+        font-size: 14px;
+
+    }
+
+    .imagens_mapa {
+        width: 70%;
+        height: auto;
+        margin-top: 10px;
+        left: 60px;
+        position: relative;
+    }
+
+
+    /* BACIA CAMPOS */
+    .conj_tit_bac_campos {
+        display: block;
+        width: 100%;
+    }
+
+    .titulo_Bacias2 {
+        color: #FFCD01;
+        font-size: 25px;
+        margin-top: 60px;
+        font-family: sans-serif;
+        margin-left: 40px
+    }
+
+    .tudo_bacias2 {
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: -10px !important;
+    }
+
+    .titulo_mapa_de_atuacao2 {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 150px;
+        font-size: 14px;
+    }
+
+    .imagens_mapa3 {
+        width: 60%;
+        height: auto;
+        margin-top: 10px;
+        left: 80px;
+        position: relative;
+    }
+
+    /* OUTRAS BACIAS */
+    .conj_tit_bac_outras {
+        display: block;
+        width: 100%;
+    }
+
+    .titulo_Bacias3 {
+        color: #FFCD01;
+        font-size: 25px;
+        margin-top: 60px;
+        font-family: sans-serif;
+        margin-left: 40px;
+    }
+
+    .tudo_bacias3 {
+        font-size: 20px;
+        margin-top: 0% !important;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: -10px;
+    }
+   
+    .titulo_mapa_de_atuacao3 {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 150px;
+        font-size: 14px;
+    }
+    .imagens_mapa2 {
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+        left: 40px;
+        position: relative;
+    }
+
+    /* BLOCOS */
+    .titulo_blocos {
+        margin-top: 60px;
+        right: 300px;
+        font-size: 30px;
+        font-family: sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 15px;
+        position: relative;
+    }
+
+    .P_titulo2_b {
+        color: #FFCD01;
+        font-size: 25px;
+        margin-top: 20px;
+        left: 0px;
+        position: relative;
+        font-family: sans-serif;
+        margin-left: 20px;
+    }
+    .img_mapa_demonstracao {
+        width: 350px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 40px;
+    }
+    .observacao_img {
+        font-size: 7px;
+        font-family: sans-serif;
+        line-height: 1.5;
+        position: relative;
+        left: 6px;
+    }
+    .P_titulo_c {
+        margin-top: 60px;
+        right: 300px;
+        font-size: 30px;
+        font-family: sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 15px;
+        position: relative;
+    }
+    .P_titulo2_c {
+        color: #FFCD01;
+        font-size: 25px;
+        margin-top: 15px;
+        left: 0px;
+        position: relative;
+        font-family: sans-serif;
+        margin-left: 20px;
+    }
+    .titulo_pocos {
+        margin-top: 60px;
+        right: 300px;
+        font-size: 30px;
+        font-family: sans-serif;
+        text-decoration: underline #FFCD01;
+        left: 15px;
+        position: relative;
+    }
+    .img_ciclo_demonstracao {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 90px;
+    }
+
+    .P_titulo3_c {
+        color: #008C4A;
+        font-size: 25px;
+        margin-top: 20px;
+        left: 15px;
+        position: relative;
+        font-family: sans-serif;
+        margin-left: 1%;
+    }
+    .P_titulo4_c {
+        color: #FFCD01;
+        font-size: 25px;
+        margin-top: 15px;
+        left: 0px;
+        position: relative;
+        font-family: sans-serif;
+        margin-left: 20px;
+    }
+    .img_demonstracao_tecnica {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 90px;
+    }
+    .P_titulo5_c {
+        color: #008C4A;
+        font-size: 25px;
+        margin-top: 20px;
+        left: 15px;
+        position: relative;
+        font-family: sans-serif;
+        margin-left: 1%;
+    }
+    .img_poço_em_producao {
+        width: 400px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 11px !important;
+    }
+    .observacao_img_poços {
+        font-size: 7px;
+        font-family: sans-serif;
+        max-width: 100%;
+        left: 6px;
+    }
+    .botao_geoespaciais {
+        top: 60px;
+        border-radius: 50px;
+        background-color: #FFCD01;
+        padding:15px;
+        color: aliceblue;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+        font-weight: bold;
+        border-color: #FFCD01;
+    }
+
+}
+@media (max-width: 375px) {
+    .dados_b_P_C_B {
+        font-size: smaller;
+        text-align: center;
+        font-size: 18px !important;
+        font-family: 'Kulim bold', sans-serif;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    .dados_b_P_C_B a {
+        margin-right: 5px !important;
+    }
+    .titulo_mapa_de_atuacao {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 120px !important;
+        font-size: 14px;
+    }
+    .titulo_mapa_de_atuacao2 {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 120px !important;
+        font-size: 14px;
+    }
+    .titulo_mapa_de_atuacao3 {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 120px !important;
+        font-size: 14px;
+    }
+    .imagens_mapa2 {
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+        left: 30px;
+        position: relative;
+    }
+    .img_mapa_demonstracao {
+        width: 350px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 13px;
+    }
+    .observacao_img {
+        font-size: 7px;
+        font-family: sans-serif;
+        line-height: 1.5;
+        position: relative;
+        left: 4px;
+    }
+    .img_ciclo_demonstracao {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 80px;
+    }
+    .img_demonstracao_tecnica {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 80px;
+    }
+    .img_poço_em_producao {
+        width: 350px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 12px !important;
+    }
+    .botao_geoespaciais {
+        margin-top: 5px;
+        border-radius: 50px;
+        background-color: #FFCD01;
+        padding:15px;
+        color: aliceblue;
+        font-size: 15px !important;
+        text-align: center;
+        cursor: pointer;
+        font-weight: bold;
+        border-color: #FFCD01;
+    }
+}
+@media (max-width: 320px) {
+    .dados_b_P_C_B {
+        font-size: smaller;
+        text-align: center;
+        font-size: 16px !important;
+        font-family: 'Kulim bold', sans-serif;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    
+    .dados_b_P_C_B a {
+        margin-right: 80px;
+    }
+
+    .dados_geoespaciais {
+        position: absolute;
+        top: 11% !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        font-family: sans-serif;
+    }
+    .titulo_mapa_de_atuacao {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 100px !important;
+        font-size: 14px;
+    }
+    .imagens_mapa {
+        width: 70%;
+        height: auto;
+        margin-top: 10px;
+        left: 45px;
+        position: relative;
+    }
+
+    .titulo_mapa_de_atuacao2 {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 100px !important;
+        font-size: 14px;
+    }
+    .imagens_mapa3 {
+        width: 60%;
+        height: auto;
+        margin-top: 10px;
+        left: 60px;
+        position: relative;
+    }
+    .titulo_mapa_de_atuacao3 {
+        display: block;
+        /* flex-wrap: wrap; */
+        margin-bottom: 5px;
+        margin-top: 10px;
+        position: relative;
+        margin-right: 100px;
+        color: #008C4A;
+        font-family: sans-serif;
+        left: 100px !important;
+        font-size: 14px;
+    }
+    .img_mapa_demonstracao {
+        width: 300px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 10px;
+    }
+    .observacao_img {
+        font-size: 6px;
+        font-family: sans-serif;
+        line-height: 1.5;
+        position: relative;
+    
+    }
+    .img_ciclo_demonstracao {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 70px;
+    }
+    .img_demonstracao_tecnica {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 65px;
+    }
+    .img_poço_em_producao {
+        width: 300px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        top: auto;
+        left: 10px !important;
+    }
+    .botao_amarelo {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: -70px;
+    }
+    .botao_geoespaciais {
+        top: 0px !important;
+        border-radius: 40px;
+        background-color: #FFCD01;
+        padding:10px!important;
+        color: aliceblue;
+        font-size: 12px;
+        text-align: center;
+        cursor: pointer;
+        font-weight: bold;
+        border-color: #FFCD01;
+        position: relative;
+    }
+}
